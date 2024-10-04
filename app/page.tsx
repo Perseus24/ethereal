@@ -1,10 +1,7 @@
 "use client"
 import './globals.css';
-import { useState } from 'react';
 export default function Home() {
   
-  const [smallScreen, isSmallScreen] = useState(false);
-
   return (
     <main className="bg-main_color h-screen px-10 py-10">
 
