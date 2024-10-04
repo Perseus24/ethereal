@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Perandory';
+  src: url('/fonts/Perandory-Regular.otf') format('opentype');
+  font-weight: normal; /* Change as needed */
+  font-style: normal;  /* Change as needed */
+}
+
+@font-face {
+  font-family: 'Amoresa';
+  src: url('/fonts/Amoresa-Regular.otf') format('opentype');
+  font-weight: normal; /* Change as needed */
+  font-style: normal;  /* Change as needed */
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

@@ -8,7 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        perandory: ['Perandory'],
+        amoresa: ['Amoresa'],
+      },
       colors: {
+        'main_color': '#DDD4CB',
+        'highlight_color': '#BC8741',
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
