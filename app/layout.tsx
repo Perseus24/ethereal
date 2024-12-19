@@ -12,6 +12,11 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+const amoresa = localFont({
+  src: "./fonts/Amoresa.woff",  // Path relative to the public folder
+  variable: "--font-amoresa",   // Define the CSS variable for the font
+}); 
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${amoresa.variable} antialiased`}
       >
         {children}
       </body>

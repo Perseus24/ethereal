@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       fontFamily: {
         perandory: ['Perandory'],
-        amoresa: ['Amoresa'],
       },
       colors: {
         'main_color': '#DDD4CB',
